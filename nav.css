@@ -1,0 +1,233 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  text-decoration: none;
+}
+
+.navbar {
+  width: 100%;
+  height: 13vh;
+  border-bottom: 0.3vh solid black;
+}
+
+.title {
+  width: 11%;
+  margin: -3.5% auto 0px auto;
+  position: relative;
+  z-index: 1;
+  text-align: center;
+}
+
+.title p {
+  font-family: 'Nunito';
+  font-weight: 700;
+  font-size: 2vw;
+  color: #B5C5D9;
+  margin-top: -7%;
+}
+
+.menu-bar {
+  margin: -0.6% 3% 1px 3%;
+  display: flex;
+  /* width: 100%; */
+  justify-content: space-between;
+  align-items: center;
+}
+
+#search {
+  width: 15vw;
+  height: 5vh;
+  background: #EBEBEB;
+  border: 0.1vh solid #000000;
+  border-radius: 6.5vh;
+  padding-left: 6%;
+  padding-right: 16%;
+  font-size: 1.125vw;
+  box-sizing: border-box;
+}
+
+.search i {
+  margin-left: -15%;
+  font-size: 1.3vw;
+}
+
+.option {
+  display: flex;
+  gap: 1vw;
+}
+
+i {
+  color: black;
+  font-size: 1.5vw;
+}
+
+.content {
+  width: 100%;
+  display: flex;
+  box-sizing: border-box;
+}
+
+.left-content {
+  width: 50%;
+  height: 38.5vw;
+  margin: 2% 0%;
+  box-sizing: border-box;
+  border-right: 0.1vh solid black;
+}
+
+.right-content {
+  width: 50%;
+  height: 38.5vw;
+  margin: 2% 0%;
+  box-sizing: border-box;
+}
+
+.product-img {
+  transform: translate(20%, 3%);
+}
+
+.product-img img {
+  width: 30vw;
+}
+
+.preview-img {
+  display: flex;
+  gap: 1.3%;
+  margin-top: 0.7%;
+}
+
+.preview-img img {
+  width: 7vw;
+}
+
+.description {
+  width: fit-content;
+  transform: translate(15%, 5%);
+}
+
+.product-name p {
+  font-family: 'Poppins';
+  font-weight: 500;
+  font-size: 2vw;
+  color: #000000;
+}
+
+.product-rating {
+  display: flex;
+  align-items: center;
+}
+
+.rate img {
+  width: 7vw;
+}
+
+.reviews p {
+  font-family: 'Poppins';
+  font-weight: 300;
+  font-size: 1vw;
+  color: #B1B1B1;
+}
+
+.price p {
+  font-family: 'Nunito';
+  font-weight: 500;
+  font-size: 2vw;
+  color: #000000;
+  margin-top: 5%;
+}
+
+.desc-product p {
+  width: 39vw;
+  font-family: 'Poppins';
+  font-weight: 500;
+  font-size: 1vw;
+  text-align: justify;
+  color: #757575;
+}
+
+.btn {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 5%;
+  padding-bottom: 5%;
+  border-bottom: 0.1vh solid black;
+}
+
+.btn-buy button {
+  width: 12vw;
+  height: 8vh;
+  background: #000000;
+  border-radius: 11px;
+  color: white;
+  cursor: pointer;
+  font-size: 1.2vw;
+  font-family: 'Nunito';
+  font-weight: 700;
+}
+
+.btn-fav button {
+  width: 12vw;
+  height: 8vh;
+  background: transparent;
+  border: 0.1vw solid black;
+  border-radius: 1vh;
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+  font-size: 1.2vw;
+  font-family: 'Nunito';
+  font-weight: 700;
+}
+
+.profile {
+  display: flex;
+  height: 4vw;
+  align-items: center;
+  margin: 4% 0px 0px 12%;
+  gap: 1vw;
+}
+
+.profile-img img {
+  width: 4vw;
+}
+
+.name p {
+  font-family: 'Poppins';
+  font-weight: 500;
+  font-size: 1.2vw;
+  color: #000000;
+}
+
+.other{
+  display: flex;
+  gap: 1vh;
+}
+.other button:first-child {
+  width: 4.5vw;
+  height: 2.6vh;
+  font-family: 'Poppins';
+  font-weight: 400;
+  font-size: .7vw;
+  color: #2B2B2B;
+  align-items: center;
+  border-radius: .7vh;
+  border: .1vh solid black;
+  background-color: transparent;
+  
+}
+
+.other button i {
+  font-size: 1vw;
+}
+
+.other button:last-child {
+  width: 6.5vw;
+  height: 2.6vh;
+  font-family: 'Poppins';
+  font-weight: 400;
+  font-size: .7vw;
+  color: #2B2B2B;
+  align-items: center;
+  border-radius: .7vh;
+  border: .1vh solid black;
+  background-color: transparent;
+}

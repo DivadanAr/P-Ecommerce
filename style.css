@@ -1,0 +1,159 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+.logo{
+  margin-top: 2%;
+  margin-left: 2%;
+}
+ul{
+  display: flex;
+  align-items: baseline;
+  gap: 1.5%;
+  list-style-type: none;
+}
+ul img{
+  width: 4vw;
+}
+ul p{
+  font-family: 'Nunito';
+  font-weight: 700;
+  font-size: 3.5vw;
+  color: #53667D;
+}
+.content{
+  width: 100%;
+  display: flex;
+}
+.left-content{
+  width: 50%;
+  margin-left: 2%;
+}
+.left-content img{
+  width: 100%;
+}
+.right-content{
+  margin-left: 5%;
+}
+.form-content{
+  width: 50%;
+}
+.first-text h4{
+  margin: 0%;
+  font-family: 'Poppins';
+  font-weight: 700;
+  font-size: 4vw;
+  line-height: 6vh;
+  color: #575757;
+}
+.second-text p{
+  margin: 0%;
+  width: 30vw;
+  font-family: 'Poppins';
+font-style: normal;
+font-size: 1.5vw;
+color: #575757;
+}
+.form-register form{
+  display: flex;
+  flex-direction: column;
+}
+.name{
+  display: flex;
+  justify-content: space-between;
+  text-align: left;
+}
+.first-name,
+.last-name,
+.username,
+.email,
+.phone-number,
+.password{
+  display: flex;
+  flex-direction: column;
+}
+label{  
+  font-family: 'Poppins';
+  font-weight: 400;
+  font-size: 1.3vw;
+  color: #575757;
+}
+.first-name input{
+  width: 16.7vw;
+  height: 5vh;
+  border-radius: 1vh;
+  border: 1px solid black;
+  font-family: 'Poppins';
+  font-weight: 400;
+  font-size: 1vw;
+  color: rgba(0, 0, 0, 0.3);
+  padding-left: 1.3vw;
+  box-sizing: border-box;
+}
+.last-name input{
+  width: 16.7vw;
+  height: 5vh;
+  border-radius: 1vh;
+  border: 1px solid black;
+  font-family: 'Poppins';
+  font-weight: 400;
+  font-size: 1vw;
+  color: rgba(0, 0, 0, 0.3);
+  padding-left: 1.3vw;
+  box-sizing: border-box;
+  margin-left: 0.7vw;
+}
+.username input,
+.email input,
+.phone-number input,
+.password input{
+  width: 34.2vw;
+  height: 5vh;
+  border-radius: 1vh;
+  border: 1px solid black;
+  font-family: 'Poppins';
+  font-weight: 400;
+  font-size: 1vw;
+  color: rgba(0, 0, 0, 0.3);
+  padding-left: 1.3vw;
+  box-sizing: border-box;
+}
+.btn-sumbit button{
+  width: 34.2vw;
+  height: 5vh;
+  margin-top: 1vh;
+  background-color: #77A4FF;
+  box-shadow: 0px 0.3vh 0.3vh rgba(0, 0, 0, 0.25);
+  border-radius: 1vh;
+  border: none;
+  color: white;
+  font-weight: 400;
+  font-size: 1.5vw;
+  font-family: 'Quicksand';
+  cursor: pointer;
+}
+.signIn-text{
+  display: flex;
+  align-items: center;
+  gap: 1vw;
+  margin-top: 2vh;
+  margin-left: 12vh;
+  width: 34.2vw;
+}
+.signIn-text .text{
+  font-family: 'Quicksand';
+  font-weight: 400;
+  font-size: 1.5vw;
+  color: #575757;
+}
+.link a{
+  font-family: 'Quicksand';
+  font-weight: 700;
+  font-size: 1.5vw;
+  color: #77A4FF;
+  text-decoration: none;
+}
+
+input:focus{
+  color: rgb(56, 56, 56);
+}
