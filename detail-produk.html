@@ -30,11 +30,12 @@
       <svg viewBox="0 0 1728 82" fill="none" xmlns="http://www.w3.org/2000/svg">
         <path
           d="M741.621 55.5807H-78V-34H1812V55.5807H1005.52C988.547 55.5807 984.167 55.5807 978.692 69.3201C974.312 80.3116 963.362 82.3267 958.434 81.9603H779.399C772.281 81.9603 761.331 81.9603 758.046 68.2209C755.418 57.2294 746.001 55.2143 741.621 55.5807Z"
-          fill="#263238" />
+          fill="#5874AF" />
       </svg>
       <div class="title">
-        <p>Star-Merce</p>
+        <p>Star-Mart</p>
       </div>
+    </div>
       <div class="menu-bar">
         <div class="search">
           <input type="text" name="search" id="search" placeholder="Search">
@@ -46,14 +47,14 @@
           <a href=""><i class="fa-regular fa-user"></i></i></a>
         </div>
       </div>
-    </div>
   </nav>
+  <main>
   <div class="container">
     <div class="content">
       <div class="left-content">
         <div class="product-img">
           <div class="main-product">
-            <img src="assets/tes-img.png" alt="">
+            <img src="assets/tes-img.png" alt="" onclick="preview()">
           </div>
           <div class="preview-img">
             <img src="assets/tes-img.png" alt="">
@@ -108,6 +109,26 @@
       </div>
     </div>
   </div>
+  <div class="dialog" style="display: none;">
+    <div class="product-title">
+      <p>3D Design</p>
+    </div>
+    <div class="preview">
+      <div class="btn-previous">
+        <button><i class="fa-solid fa-angle-left"></i></button>
+      </div>
+      <div class="img-preview">
+        <img src="assets/tes-img.png" alt="">
+      </div>
+      <div class="btn-next">
+        <button><i class="fa-solid fa-angle-right"></i></button>
+      </div>
+    </div>
+    <div class="other-previews">
+      <img src="assets/tes-img.png" alt="">
+    </div>
+  </div>
+  </main>
 </body>
 
 </html>
