@@ -1,0 +1,422 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.judul{
+    display: flex;
+
+    margin-top: 2vh;
+    margin-left: 14vw;
+    font-size: 1.45vw;
+    font-weight: 600;
+    font-family: 'poppins';
+}
+
+.judul2{
+    padding-left: 9vw;
+}
+.judul3{
+    padding-left: 10vw;
+}
+
+.garis-bulet{
+    align-items: center;
+    margin-top:2vh;
+    margin-left: 4vw;
+    display: flex;
+}
+
+
+.garis1{
+    width: 11.17vw;
+    border: solid 0.1vw black;
+    background-color: black;
+    height: 0.1vh;
+}
+
+.bulet1{
+    border-radius: 100%;
+    background-color: #d0d0d0;
+    width: 1.87vw;
+    height: 1.87vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dalem-bulet1{
+    border-radius: 100%;
+    background-color: #77a4ff ;
+    width: 1.4vw;
+    height: 1.4vw;
+}
+.garis2{
+    width: 12.67vw;
+    border: solid 0.1vw black;
+    background-color: black;
+    height: 0.1vh;
+}
+
+.bulet2{
+    border-radius: 100%;
+    background-color: #d0d0d0;
+    width: 1.87vw;
+    height: 1.87vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dalem-bulet2{
+    border-radius: 100%;
+    width: 1.2vw;
+    height: 1.2vw;
+}
+
+.garis3{
+    width: 13.47vw;
+    border: solid 0.1vw black;
+    background-color: black;
+    height: 0.1vh;
+}
+.garis4{
+    width: 11.17vw;
+    border: solid 0.1vw black;
+    background-color: black;
+    height: 0.1vh;
+}
+.bulet3{
+    border-radius: 100%;
+    background-color: #d0d0d0;
+    width: 1.87vw;
+    height: 1.87vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dalem-bulet3{
+    border-radius: 100%;
+    width: 1.2vw;
+    height: 1.2vw;
+}
+
+.container{
+    display: flex;
+}
+
+.kotak-order{
+    width: 30.5vw;
+    height: 90vh;
+    margin-left: 5vw;
+    margin-top: 5vh;
+    background-color: white;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.12), 4px 0px 4px rgba(0, 0, 0, 0.07);
+    border-radius: 15px;
+}
+
+.your-order{
+    font-weight: 600;
+    font-family: 'poppins';
+    text-decoration: underline;
+    padding-top: 3vh;
+    padding-left: 4vw;
+    font-size: 1.5vw;
+}
+
+.gambar{
+    width: 23.3vw;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: center;
+    /* background-image:url("https://cf.shopee.co.id/file/b288f60bea7e351c6f40a96a14314e9b") ; */
+    background-color: #d0d0d0;
+    background-size: 23vw;
+    height:18.5vw;
+    border-radius: 1%;
+    margin-left: 4vw;
+    margin-top: 2vh;
+}
+
+.judul-detail-product{
+    font-weight: 600;
+    font-family: 'poppins';
+    padding-top: 3vh;
+    padding-left: 4vw;
+    font-size: 1.5vw;
+}
+
+.isi-detail-product{
+    font-size: 1vw;
+    width: 23vw;
+    margin-left: 4vw;
+    font-family: 'quicksand';
+}
+
+.subtotal{
+    display: flex;
+    gap: 12vw;
+    font-size: 1vw;
+    margin-left: 4vw;
+}
+
+.kiri{
+    width: 62vw;
+}
+
+.kiri-subtotal{
+    font-family: 'quicksand';
+    font-weight: 400;
+    font-size: 1vw;
+}
+.kanan-subtotal{
+    font-family: 'quicksand';
+    font-weight: 400;
+    font-size: 1vw;
+}
+.admin-fee{
+    display: flex;
+    gap: 11.2vw;
+    font-size: 1vw;
+    margin-left: 4vw;
+    margin-top: 1vh;
+}
+
+.kiri-admin{
+    font-family: 'quicksand';
+    font-weight: 400;
+    font-size: 1vw;
+}
+.kanan-admin{
+    font-family: 'quicksand';
+    font-weight: 400;
+    font-size: 1vw;
+}
+
+.judul-order{
+    font-weight: 600;
+    font-family: 'poppins';
+    padding-top: 1vh;
+    padding-left: 4vw;
+    font-size: 1.5vw;
+}
+
+.garis-kotak{
+    border: 0.1vh solid #C4C4C4;
+    width: 23vw;
+    margin-left: 4vw;
+    background-color: #C4C4C4;
+    margin-top: 3vw;
+}
+
+.total{
+    display: flex;
+    gap: 9vw;
+    font-family: 'quicksand';
+    font-size: 0.9vw;
+    margin-left: 4vw;
+    margin-top: 1vw;
+}
+/* Yang penting diatas */
+.contact-info{
+    margin-left: 4vw;
+    margin-top: 2vw;
+
+}
+
+.isi-contact-info{
+    font-size: 1.8vw;
+    font-family: 'poppins';
+    margin-top: 2vw;
+}
+
+.order-id{
+    display: flex;
+    gap: 35vw;
+}
+
+.customer-id{
+    display: flex;
+    gap: 31vw;
+    margin-top: 1vw;
+}
+
+.nama-cust{
+    display: flex;
+    gap: 37vw;
+    margin-top: 1vw;
+}
+
+.isi-customer-id{
+    font-weight: 200;
+}
+
+.isi-nama-cust{
+    font-weight: 200;
+}
+.isi-order-id{
+    font-weight: 200;
+}
+.isi-nomor-telp{
+    font-weight: 200;
+}
+.isi-email-cust{
+    font-weight: 200;
+}
+
+
+.judul-contact{
+    font-size: 1.8vw;
+    font-family: 'poppins';
+    font-weight: 500;
+}
+
+.judul-shipping{
+    font-size: 1.8vw;
+    font-family: 'poppins';
+    font-weight: 500;
+    margin-top: 1vw;
+}
+
+.nomor-telp{
+    display: flex;
+    gap: 29vw;
+    margin-top: 1vw;
+}
+
+.email-cust{
+    display: flex;
+    gap: 37.4vw;
+    margin-top: 1vw;
+}
+
+#method-ship{
+    font-family: 'quicksand';
+    font-weight: 500;
+    width: 60vw;
+    height: 3vw;
+    border: 0.1vw solid black;
+    margin-top: 1vw;
+    padding-left: 2vw;
+}
+
+select{
+    font-size: 1.7vw;
+    border-radius: 1vw;
+}
+
+.isi-shipping select{
+    width: 6.2vw;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    padding: 0.2vw 0.2vw 0.2vw 0.2vw;
+    border: none;
+    background: transparent url("http://cdn1.iconfinder.com/data/icons/cc_mono_icon_set/blacks/16x16/br_down.png") no-repeat 56vw center;
+    background-size: 1.5vw;
+    cursor: pointer;
+}
+#value-ship{
+    font-weight: 500;
+    font-size: 2vw;
+    width: 2.2vw;
+}
+
+option{
+    width: 2vw;
+}
+
+.checkbox{
+    display: flex;
+    font-size: 1vw;
+    margin-top: 2vw;
+}
+
+.privacy-and-pol{
+    font-weight: 300;
+    padding-left: 2vw;
+    font-family: 'poppins';
+}
+
+.privacy-and-pol a{
+    font-weight: 600;
+    text-decoration: none;
+    font-family: 'poppins';
+}
+.privacy-and-pol a:hover{
+    font-weight: 600;
+    text-decoration: underline ;
+    font-family: 'poppins';
+}
+
+#kotak-checkbox{
+    width: 2vw;
+    height: 2vw;
+    cursor: pointer;
+    margin-left: 1vw;
+}
+
+.continue-button{
+    width: 60vw;
+    height: 3vw;
+    border-radius: 0.5vw;
+    margin-top: 2vw;
+    background-color: #77a4ff;
+    cursor: pointer;
+    font-size: 1.5vw;
+    color: white;
+    font-weight: 600;
+    font-family: 'poppins';
+    border: none;
+}
+.continue-button:hover{
+    width: 60vw;
+    height: 3vw;
+    border-radius: 0.5vw;
+    margin-top: 2vw;
+    background-color: #77a4ff;
+    cursor: pointer;
+    font-size: 1.5vw;
+    color: white;
+    font-weight: 600;
+    font-family: 'poppins';
+    filter: drop-shadow(5px 4px 4px #96b5f4);
+    transition: all .4s;
+
+}
+.cancel-button{
+    width: 60vw;
+    height: 3vw;
+    border-radius: 0.5vw;
+    margin-top: 1vw;
+    border: 0.1vw solid black;
+    cursor: pointer;
+    font-size: 1.5vw;
+    color: black;
+    background-color: white;
+    font-weight: 600;
+    font-family: 'poppins';
+}
+.cancel-button:hover{
+    width: 60vw;
+    height: 3vw;
+    border-radius: 0.5vw;
+    margin-top: 1vw;
+    border: 0.1vw solid black;
+    cursor: pointer;
+    font-size: 1.5vw;
+    color: black;
+    background-color: white;
+    font-weight: 600;
+    font-family: 'poppins';
+    filter: drop-shadow(5px 4px 4px rgba(0, 0, 0, 0.25));
+    transition: all .4s;
+
+}
+
+@media screen and (max-width: 460px){
+    .container{
+      
+    }
+}

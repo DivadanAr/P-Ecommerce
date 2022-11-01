@@ -167,7 +167,23 @@ button{
 	margin-left: -200%;
   }
   
- 
+ .overflow-wrapper{
+    animation: slider 15s infinite;
+ }
+
+ #slide1,#slide2,#slide3{
+    animation: slider 15s infinite
+ }
+
+ @keyframes slider {
+    0%{margin-left: 0%;}
+    18%{margin-left: 0%;}
+    36%{margin-left: -100%;}
+    54%{margin-left: -100%;}
+    72%{margin-left: -200%;}
+    90%{margin-left: -200%;}
+    100%{margin-left: 0%;}
+ }
   
   #Slide1:checked + #s1 {
 	opacity: 1;
@@ -181,7 +197,6 @@ button{
 	opacity: 1;
   }
   
- 
   .overflow-wrapper {
 	width: 400%;
 	height: 100%;
