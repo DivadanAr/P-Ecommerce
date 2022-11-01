@@ -2,42 +2,44 @@
     margin: 0px;
     padding: 0px;
     text-decoration: none;
-  }
+}
 
-  body{
-    overflow: hidden;
-  }
+body {
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
 nav {
     width: 100%;
     height: 13vh;
     border-bottom: 0.3vh solid black;
-  }
-  
-  .title {
+}
+
+.title {
     width: 11%;
     margin: -3.5% auto 0px auto;
     position: relative;
     z-index: 1;
     text-align: center;
-  }
-  
-  .title p {
+}
+
+.title p {
     font-family: 'Nunito';
     font-weight: 700;
     font-size: 2vw;
     color: #B5C5D9;
     margin-top: -7%;
-  }
-  
-  .menu-bar {
+}
+
+.menu-bar {
     margin: -0.6% 3% 1px 3%;
     display: flex;
     /* width: 100%; */
     justify-content: space-between;
     align-items: center;
-  }
-  
-  #search {
+}
+
+#search {
     width: 15vw;
     height: 5vh;
     background: #EBEBEB;
@@ -47,84 +49,90 @@ nav {
     padding-right: 16%;
     font-size: 1.125vw;
     box-sizing: border-box;
-  }
-  
-  .search i {
+}
+
+.search i {
     margin-left: -15%;
     font-size: 1.3vw;
-  }
-  
-  .option {
+}
+
+.option {
     display: flex;
     gap: 1vw;
-  }
-  
-  i {
+}
+
+i {
     color: black;
     font-size: 1.5vw;
-  }
-  ul{
+}
+
+ul {
     display: flex;
     list-style: none;
     gap: 30vw;
     margin-left: -13.5vw;
     font-family: 'M PLUS 1', sans-serif;
-  }
-  li{
+}
+
+li {
     text-decoration: none;
     font-size: 16px;
-  }
+}
 
-  .middle-row h2{
+.middle-row h2 {
     margin-top: 8vh;
     text-align: center;
     font-size: 5vw;
     font-family: 'Raleway', sans-serif;
     font-weight: 900;
     color: #5874AF;
-  }
+    margin-left: -1vw;
+}
 
-  .middle-row h2 span{
-        background: linear-gradient(to bottom, #5874AF 0%, #1b4663 100%);
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-  }
+.middle-row h2 span {
+    background: linear-gradient(to bottom, #5874AF 0%, #1b4663 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
 
-  .middle-row h2 div{
+.middle-row h2 div {
     width: 1.3vw;
     height: 2.5vh;
     background-color: #5874AF;
-  }
-  .middle-row h2 .kotak1{
+}
+
+.middle-row h2 .kotak1 {
     position: relative;
     left: 63.3vw;
-  }
-  .middle-row h2 .kotak2{
+}
+
+.middle-row h2 .kotak2 {
     position: relative;
     left: 63.3vw;
     top: -16vh;
-  }
-  .middle-row h2 .kotak3{
+}
+
+.middle-row h2 .kotak3 {
     position: relative;
     left: 35.5vw;
     top: -18.5vh;
-  }
+}
 
-  .middle-row h2 .kotak4{
+.middle-row h2 .kotak4 {
     position: relative;
     left: 35.5vw;
     top: -8vh;
-  }
+}
 
 
 
-  .middle-row h2 span{
+.middle-row h2 span {
     border: 1px solid black;
     padding: 1vh 3vw;
 
-  }
-  
-  .middle-row .btn{
+}
+
+.middle-row .btn {
     position: absolute;
     left: 42.6vw;
     top: 50vh;
@@ -137,16 +145,16 @@ nav {
     border: none;
     font-family: 'Raleway', sans-serif;
     font-weight: 500;
-  }
+}
 
-  .right-row .row1{
+.right-row .row1 {
     display: flex;
     position: relative;
     top: -40vh;
     left: 72vw;
-  }
+}
 
-  .right-row .row1 .kotak{
+.right-row .row1 .kotak {
     display: flex;
     width: 16vw;
     height: 11.5vh;
@@ -158,32 +166,32 @@ nav {
     padding-left: 1.5vw;
     border-radius: 5px;
     margin-left: 1vw;
-  }
+}
 
-  .row1 .kotak p{
+.row1 .kotak p {
     font-size: 1.2vw;
     letter-spacing: 4px;
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
     line-height: 3vh;
 
-  }
+}
 
-  .row1 img{
+.row1 img {
     height: 13vh;
-  }
-  
+}
 
 
 
-  .right-row .row2{
+
+.right-row .row2 {
     display: flex;
     position: relative;
     top: -38vh;
     left: 72vw;
-  }
+}
 
-  .right-row .row2 .kotak{
+.right-row .row2 .kotak {
     display: flex;
     width: 16vw;
     height: 11.5vh;
@@ -195,26 +203,26 @@ nav {
     padding-left: 1.5vw;
     border-radius: 5px;
     margin-right: 1vw;
-  }
+}
 
-  .row2 .kotak p{
+.row2 .kotak p {
     font-size: 1.2vw;
     letter-spacing: 4px;
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
     line-height: 3vh;
 
-  }
+}
 
 
-  .right-row .row3{
+.right-row .row3 {
     display: flex;
     position: relative;
     top: -36vh;
     left: 78vw;
-  }
+}
 
-  .right-row .row3 .kotak{
+.right-row .row3 .kotak {
     display: flex;
     width: 16vw;
     height: 11.5vh;
@@ -226,13 +234,173 @@ nav {
     padding-left: 1.5vw;
     border-radius: 5px;
     margin-right: 1vw;
-  }
+}
 
-  .row3 .kotak p{
+.row3 .kotak p {
     font-size: 1.2vw;
     letter-spacing: 4px;
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
     line-height: 3vh;
+}
 
+.sorted {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin-top: -32vh;
+}
+
+.sorted h3 {
+    margin-left: 38vw;
+    margin-bottom: 5vh;
+    letter-spacing: 6px;
+    font-family: 'Quicksand', sans-serif;
+
+}
+
+.jurusan {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3vw;
+    margin-top: -2vh;
+}
+
+.mm,
+.tjkt,
+.rpl,
+.te,
+.bc {
+    width: 10vw;
+    height: 20vh;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+.mm img {
+    width: 7vw;
+}
+
+.tjkt img {
+    width: 10vw;
+}
+
+.bc img {
+    width: 14vw;
+    margin-left: 1.5vw;
+    margin-top: 5vh;
+}
+
+.rpl img {
+    width: 8vw;
+}
+
+.te img {
+    width: 14vw;
+    margin-left: -0.6vw;
+    margin-top: -1vh;
+}
+
+/* featured product */
+.featured-product {
+    width: 85vw;
+    height: 73vh;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 10vh;
+    margin: 10vh auto;
+    padding: 2vw;
+}
+
+.judul{
+    width: 50vw;
+    height: 15vh;
+    margin: auto;
+    line-height: 6vh;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 10px;
+    text-align: center;
+}
+.judul h1{
+    font-size: 3vw;
+    color: #3F5788;
+}
+.judul h2{
+    font-size: 2.5vw;
+    font-style: italic;
+    font-weight: 900;
+    color:  rgb(13, 67, 104);
+    opacity: 80%;
+}
+.produk {
+    display: flex;
+    margin: 2vw 5vw 5vw 5vw;
+    gap: 3vw;
+}
+
+.produk img {
+    width: 30vw;
+}
+
+.detail {
+    display: flex;
+    flex-direction: column;
+    gap: 1vh;
+
+}
+
+.detail .nama {
+    width: 40vw;
+    height: 8vh;
+    font-size: 2vw;
+    color: #1d2a45;
+    font-family: 'Raleway', sans-serif;
+}
+
+.detail .harga{
+    width: 40vw;
+    height: 6vh;
+    font-size: 2vw;
+    font-family: 'Poppins', sans-serif;
+}
+.detail .deskripsi{
+    width: 40vw;
+    height: 10vh;
+    font-size: 1.3vw;
+    font-family: 'Poppins', sans-serif;
+}
+.button{
+    display: flex;
+    gap: 3vw;
+    margin-top: 10vh;
+}
+.buynow{
+    width: 12vw;
+  height: 8vh;
+  background: #000000;
+  border-radius: 11px;
+  color: white;
+  cursor: pointer;
+  font-size: 1.2vw;
+  font-family: 'Nunito';
+  font-weight: 700;
+    
+  }
+  
+  .favs {
+    width: 12vw;
+  height: 8vh;
+  background: transparent;
+  border: 0.1vw solid black;
+  border-radius: 1vh;
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+  font-size: 1.2vw;
+  font-family: 'Nunito';
+  font-weight: 700;
   }
