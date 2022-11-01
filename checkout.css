@@ -228,7 +228,7 @@
 .isi-contact-info{
     font-size: 1.8vw;
     font-family: 'poppins';
-    margin-top: 2vw;
+    margin-top: 1vw;
 }
 
 .order-id{
@@ -250,19 +250,24 @@
 
 .isi-customer-id{
     font-weight: 200;
+    font-size: 1.4vw;
 }
 
 .isi-nama-cust{
     font-weight: 200;
+    font-size: 1.4vw;
 }
 .isi-order-id{
     font-weight: 200;
+    font-size: 1.4vw;
 }
 .isi-nomor-telp{
     font-weight: 200;
+    font-size: 1.4vw;
 }
 .isi-email-cust{
     font-weight: 200;
+    font-size: 1.4vw;
 }
 
 
@@ -361,7 +366,7 @@ option{
     width: 60vw;
     height: 3vw;
     border-radius: 0.5vw;
-    margin-top: 2vw;
+    margin-top: 1vw;
     background-color: #77a4ff;
     cursor: pointer;
     font-size: 1.5vw;
@@ -374,7 +379,7 @@ option{
     width: 60vw;
     height: 3vw;
     border-radius: 0.5vw;
-    margin-top: 2vw;
+    margin-top: 1vw;
     background-color: #77a4ff;
     cursor: pointer;
     font-size: 1.5vw;
