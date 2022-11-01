@@ -5,10 +5,19 @@
 
 .judul{
     display: flex;
-    gap: 11.25vw;
+
     margin-top: 2vh;
     margin-left: 14vw;
-    font-size: 1.25vw;
+    font-size: 1.45vw;
+    font-weight: 600;
+    font-family: 'poppins';
+}
+
+.judul2{
+    padding-left: 9vw;
+}
+.judul3{
+    padding-left: 10vw;
 }
 
 .garis-bulet{
@@ -61,6 +70,7 @@
 
 .dalem-bulet2{
     border-radius: 100%;
+    background-color: #77a4ff ;
     width: 1.2vw;
     height: 1.2vw;
 }
@@ -166,7 +176,24 @@
     font-weight: 400;
     font-size: 1vw;
 }
+.kiri-delivery{
+    font-family: 'quicksand';
+    font-weight: 400;
+    font-size: 1vw;
+}
+.kanan-delivery{
+    font-family: 'quicksand';
+    font-weight: 400;
+    font-size: 1vw;
+}
 .admin-fee{
+    display: flex;
+    gap: 11.2vw;
+    font-size: 1vw;
+    margin-left: 4vw;
+    margin-top: 1vh;
+}
+.delivery-fee{
     display: flex;
     gap: 11.2vw;
     font-size: 1vw;
