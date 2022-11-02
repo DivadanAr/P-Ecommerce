@@ -12,7 +12,15 @@ body {
 nav {
     width: 100%;
     height: 13vh;
-    border-bottom: 0.3vh solid black;
+    border-bottom: 0.1vh solid black;
+    position: fixed;
+    margin-top: -15vh;
+    background-color: white;
+    z-index: 999;
+}
+
+header{
+    margin-top: 15vh;
 }
 
 .title {
@@ -37,6 +45,7 @@ nav {
     /* width: 100%; */
     justify-content: space-between;
     align-items: center;
+    
 }
 
 #search {
@@ -134,8 +143,8 @@ li {
 
 .middle-row .btn {
     position: absolute;
-    left: 42.6vw;
-    top: 50vh;
+    left: 42vw;
+    top: 44vh;
     font-size: 1vw;
     padding: 1.5vh 3vw;
     border-radius: 8px;
@@ -252,7 +261,7 @@ li {
 }
 
 .sorted h3 {
-    margin-left: 38vw;
+    margin-left: 37vw;
     margin-bottom: 5vh;
     letter-spacing: 6px;
     font-family: 'Quicksand', sans-serif;
@@ -329,12 +338,13 @@ li {
 .judul h1{
     font-size: 3vw;
     color: #3F5788;
+    
 }
 .judul h2{
     font-size: 2.5vw;
     font-style: italic;
     font-weight: 900;
-    color:  rgb(13, 67, 104);
+    color:  #3F5788;
     opacity: 80%;
 }
 .produk {
@@ -358,7 +368,8 @@ li {
     width: 40vw;
     height: 8vh;
     font-size: 2vw;
-    color: #1d2a45;
+    color: #243964;
+    font-weight: 900;
     font-family: 'Raleway', sans-serif;
 }
 
@@ -366,6 +377,7 @@ li {
     width: 40vw;
     height: 6vh;
     font-size: 2vw;
+    color: #243964;
     font-family: 'Poppins', sans-serif;
 }
 .detail .deskripsi{
@@ -382,13 +394,14 @@ li {
 .buynow{
     width: 12vw;
   height: 8vh;
-  background: #000000;
+  background: #243964;
   border-radius: 11px;
   color: white;
   cursor: pointer;
   font-size: 1.2vw;
   font-family: 'Nunito';
   font-weight: 700;
+  border: none;
     
   }
   
@@ -396,11 +409,91 @@ li {
     width: 12vw;
   height: 8vh;
   background: transparent;
-  border: 0.1vw solid black;
+  border: 0.1vw solid #243964;
   border-radius: 1vh;
-  color: rgb(0, 0, 0);
+  color: #243964;
   cursor: pointer;
   font-size: 1.2vw;
   font-family: 'Nunito';
   font-weight: 700;
   }
+
+  /* star mall */
+  .star-mall h1{
+    font-size: 5vw;
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(to bottom, #5874AF 0%, #1b4663 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-left: 4.5vw;
+    margin-bottom: 5vh;
+  }
+  .category{
+    display: flex;
+    gap: 6vw;
+    width: 80vw;
+    margin-left: 6vw;
+  }
+
+  .category button{
+    padding: 1vh 5vw;
+    border-radius: 0.5vw;
+    background-color: transparent;
+  }
+  
+  /* card */
+  .card1{
+    width: 16vw;
+    height: 36vh;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 0.5vw;
+    margin: 6vh 2.5vw 5vw 10vw;
+  }
+  .isinya{
+    display: flex;
+    align-items: center;
+
+  }
+  .gambar{
+    width: 16vw;
+    border-radius: 0.5vw;
+  }
+  .detail{
+    width: 2.5vw;
+    height: 5vh;
+  }
+  .details{
+    margin:1vw;
+    font-family: 'Poppins', sans-serif;
+    gap: 1vw;
+    display: inline-block;
+  }
+  .nama{
+    font-size: 1vw;
+    font-weight: 500;
+  }
+  
+  .card2, .card3, .card4{
+    width: 16vw;
+    height: 36vh;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 0.5vw;
+    margin: 6vh 2.5vw;
+  }
+
+  .star-mall .all{
+    width: 12vw;
+    height: 5vh;
+    background: #243964;
+    border-radius: 0.8vh;
+    color: white;
+    cursor: pointer;
+    font-size: 1vw;
+    font-family: 'Nunito';
+    font-weight: 700;
+    border: none;
+    margin:0vh 41.5vw 2vh;
+  }
+  
