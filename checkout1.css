@@ -135,7 +135,7 @@
     /* background-image:url("https://cf.shopee.co.id/file/b288f60bea7e351c6f40a96a14314e9b") ; */
     background-color: #d0d0d0;
     background-size: 23vw;
-    height:20.5vh;
+    height:18.5vw;
     border-radius: 1%;
     margin-left: 4vw;
     margin-top: 2vh;
@@ -387,4 +387,3 @@
     transition: all .4s;
     font-size: 1vw;
 }
-
