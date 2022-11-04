@@ -1,0 +1,633 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    scroll-behavior: smooth;
+}
+
+body {
+    overflow-y: scroll;
+    overflow-x: hidden;
+
+}
+
+nav {
+    width: 100%;
+    height: 13vh;
+    border-bottom: 0.1vh solid black;
+    position: fixed;
+    margin-top: -15vh;
+    background-color: white;
+    z-index: 999;
+}
+
+header{
+    margin-top: 15vh;
+}
+
+.title {
+    width: 11%;
+    margin: -3.5% auto 0px auto;
+    position: relative;
+    z-index: 1;
+    text-align: center;
+}
+
+.title p {
+    font-family: 'Nunito';
+    font-weight: 700;
+    font-size: 2vw;
+    color: #B5C5D9;
+    margin-top: -7%;
+}
+
+.menu-bar {
+    margin: -0.6% 3% 1px 3%;
+    display: flex;
+    /* width: 100%; */
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+#search {
+    width: 15vw;
+    height: 5vh;
+    background: #EBEBEB;
+    border: 0.1vh solid #000000;
+    border-radius: 6.5vh;
+    padding-left: 6%;
+    padding-right: 16%;
+    font-size: 1.125vw;
+    box-sizing: border-box;
+}
+
+.search i {
+    margin-left: -15%;
+    font-size: 1.3vw;
+}
+
+.option {
+    display: flex;
+    gap: 1vw;
+}
+
+i {
+    color: black;
+    font-size: 1.5vw;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    gap: 30vw;
+    margin-left: -13.5vw;
+    font-family: 'M PLUS 1', sans-serif;
+}
+
+li {
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.middle-row h2 {
+    margin-top: 8vh;
+    text-align: center;
+    font-size: 5vw;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 900;
+    color: #5874AF;
+    margin-left: -1vw;
+}
+
+.middle-row h2 span {
+    background: linear-gradient(to bottom, #5874AF 0%, #1b4663 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.middle-row h2 div {
+    width: 1.3vw;
+    height: 2.5vh;
+    background-color: #5874AF;
+}
+
+.middle-row h2 .kotak1 {
+    position: relative;
+    left: 63.3vw;
+}
+
+.middle-row h2 .kotak2 {
+    position: relative;
+    left: 63.3vw;
+    top: -16vh;
+}
+
+.middle-row h2 .kotak3 {
+    position: relative;
+    left: 35.5vw;
+    top: -18.5vh;
+}
+
+.middle-row h2 .kotak4 {
+    position: relative;
+    left: 35.5vw;
+    top: -8vh;
+}
+
+
+
+.middle-row h2 span {
+    border: 1px solid black;
+    padding: 1vh 3vw;
+
+}
+
+.middle-row .btn {
+    position: absolute;
+    left: 42vw;
+    top: 44vh;
+    font-size: 1vw;
+    padding: 1.5vh 3vw;
+    border-radius: 8px;
+    letter-spacing: 5px;
+    background-color: #5874AF;
+    color: white;
+    border: none;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+}
+
+.right-row .row1 {
+    display: flex;
+    position: relative;
+    top: -40vh;
+    left: 72vw;
+}
+
+.right-row .row1 .kotak {
+    display: flex;
+    width: 16vw;
+    height: 11.5vh;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    justify-content: start;
+    align-items: center;
+    gap: 1vw;
+    padding-left: 1.5vw;
+    border-radius: 5px;
+    margin-left: 1vw;
+}
+
+.row1 .kotak p {
+    font-size: 1.2vw;
+    letter-spacing: 4px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    line-height: 3vh;
+
+}
+
+.row1 img {
+    height: 13vh;
+}
+
+
+
+
+.right-row .row2 {
+    display: flex;
+    position: relative;
+    top: -38vh;
+    left: 72vw;
+}
+
+.right-row .row2 .kotak {
+    display: flex;
+    width: 16vw;
+    height: 11.5vh;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    justify-content: start;
+    align-items: center;
+    gap: 1vw;
+    padding-left: 1.5vw;
+    border-radius: 5px;
+    margin-right: 1vw;
+}
+
+.row2 .kotak p {
+    font-size: 1.2vw;
+    letter-spacing: 4px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    line-height: 3vh;
+
+}
+
+
+.right-row .row3 {
+    display: flex;
+    position: relative;
+    top: -36vh;
+    left: 78vw;
+}
+
+.right-row .row3 .kotak {
+    display: flex;
+    width: 16vw;
+    height: 11.5vh;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    justify-content: start;
+    align-items: center;
+    gap: 1vw;
+    padding-left: 1.5vw;
+    border-radius: 5px;
+    margin-right: 1vw;
+}
+
+.row3 .kotak p {
+    font-size: 1.2vw;
+    letter-spacing: 4px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    line-height: 3vh;
+}
+
+.sorted {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin-top: -32vh;
+}
+
+.sorted h3 {
+    margin-left: 37vw;
+    margin-bottom: 5vh;
+    letter-spacing: 6px;
+    font-family: 'Quicksand', sans-serif;
+
+}
+
+.jurusan {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3vw;
+    margin-top: -2vh;
+}
+
+.mm,
+.tjkt,
+.rpl,
+.te,
+.bc {
+    width: 10vw;
+    height: 20vh;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+.mm img {
+    width: 7vw;
+}
+
+.tjkt img {
+    width: 10vw;
+}
+
+.bc img {
+    width: 14vw;
+    margin-left: 1.5vw;
+    margin-top: 5vh;
+}
+
+.rpl img {
+    width: 8vw;
+}
+
+.te img {
+    width: 14vw;
+    margin-left: -0.6vw;
+    margin-top: -1vh;
+}
+
+/* featured product */
+.featured-product {
+    width: 85vw;
+    height: 73vh;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 10vh;
+    margin: 10vh auto;
+    padding: 2vw;
+}
+
+.judul{
+    width: 50vw;
+    height: 15vh;
+    margin: auto;
+    line-height: 6vh;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 10px;
+    text-align: center;
+}
+.judul h1{
+    font-size: 3vw;
+    color: #3F5788;
+    
+}
+.judul h2{
+    font-size: 2.5vw;
+    font-style: italic;
+    font-weight: 900;
+    color:  #3F5788;
+    opacity: 80%;
+}
+.produk {
+    display: flex;
+    margin: 2vw 5vw 5vw 5vw;
+    gap: 3vw;
+}
+
+.produk img {
+    width: 30vw;
+}
+
+.detail {
+    display: flex;
+    flex-direction: column;
+    gap: 1vh;
+
+}
+
+.detail .nama {
+    width: 40vw;
+    height: 8vh;
+    font-size: 2vw;
+    color: #243964;
+    font-weight: 900;
+    font-family: 'Raleway', sans-serif;
+}
+
+.detail .harga{
+    width: 40vw;
+    height: 6vh;
+    font-size: 2vw;
+    color: #243964;
+    font-family: 'Poppins', sans-serif;
+}
+.detail .deskripsi{
+    width: 40vw;
+    height: 10vh;
+    font-size: 1.3vw;
+    font-family: 'Poppins', sans-serif;
+}
+.button{
+    display: flex;
+    gap: 3vw;
+    margin-top: 10vh;
+}
+.buynow{
+    width: 12vw;
+  height: 8vh;
+  background: #243964;
+  border-radius: 11px;
+  color: white;
+  cursor: pointer;
+  font-size: 1.2vw;
+  font-family: 'Nunito';
+  font-weight: 700;
+  border: none;
+    
+  }
+  
+  .favs {
+    width: 12vw;
+  height: 8vh;
+  background: transparent;
+  border: 0.1vw solid #243964;
+  border-radius: 1vh;
+  color: #243964;
+  cursor: pointer;
+  font-size: 1.2vw;
+  font-family: 'Nunito';
+  font-weight: 700;
+  }
+
+  /* star mall */
+  .star-mall h1{
+    font-size: 5vw;
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(to bottom, #5874AF 0%, #1b4663 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-left: 4.5vw;
+    margin-bottom: 5vh;
+  }
+  .category{
+    display: flex;
+    gap: 6vw;
+    width: 80vw;
+    margin-left: 6vw;
+  }
+
+  .category button{
+    padding: 1vh 5vw;
+    border-radius: 0.5vw;
+    background-color: transparent;
+  }
+  
+  /* card */
+  .card1{
+    width: 16vw;
+    height: 36vh;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 0.5vw;
+    margin: 6vh 2.5vw 5vw 10vw;
+  }
+  .isinya{
+    display: flex;
+    align-items: center;
+
+  }
+  .gambar{
+    width: 16vw;
+    border-radius: 0.5vw;
+  }
+  .detail{
+    width: 2.5vw;
+    height: 5vh;
+  }
+  .details{
+    margin:1vw;
+    font-family: 'Poppins', sans-serif;
+    gap: 1vw;
+    display: inline-block;
+  }
+  .nama{
+    font-size: 1vw;
+    font-weight: 500;
+  }
+  
+  .card2, .card3, .card4{
+    width: 16vw;
+    height: 36vh;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 0.5vw;
+    margin: 6vh 2.5vw;
+  }
+
+  .star-mall .all{
+    width: 12vw;
+    height: 5vh;
+    background: #243964;
+    border-radius: 0.8vh;
+    color: white;
+    cursor: pointer;
+    font-size: 1vw;
+    font-family: 'Nunito';
+    font-weight: 700;
+    border: none;
+    margin:0vh 41.5vw 2vh;
+  }
+  
+  /* footer */
+
+.footer{
+   display: flex;
+   flex-direction: column;
+}
+.kategori ul{
+    margin-left: 5vw;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    font-family: 'Poppins', sans-serif; 
+    text-align: start;
+    letter-spacing: 0.5vw;
+    gap: 1vh;
+}
+.kategori ul li p{
+    color: rgb(255, 251, 243);
+    font-weight: 700;
+    margin-bottom: 2vh;
+}
+.kategori ul li a{
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+}
+
+.help-center ul{
+    margin-left: 10vw;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    font-family: 'Poppins', sans-serif; 
+    text-align: start;
+    letter-spacing: 0.5vw;
+    gap: 1vh;
+}
+.help-center ul li p{
+    color: rgb(255, 251, 243);
+    font-weight: 700;
+    margin-bottom: 2vh;
+}
+.help-center ul li a{
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+}
+
+.school-info ul{
+    margin-left: 8vw;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    font-family: 'Poppins', sans-serif; 
+    text-align: start;
+    letter-spacing: 0.5vw;
+    gap: 1vh;
+}
+.school-info ul li p{
+    color: rgb(255, 251, 243);
+    font-weight: 700;
+    margin-bottom: 2vh;
+}
+.school-info ul li a{
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+}
+
+.logo-copyright{
+    margin-top: -2vh;
+    margin-left: 6vw;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 10vh;
+    font-family: 'Poppins', sans-serif; 
+    justify-content: center;
+    align-items: center;
+    gap: 1vh;
+}
+
+.logo-copyright img{
+    width: 20vw;
+}
+
+.logo-copyright p{
+    color: white;
+    opacity: 0.5;
+}
+
+.konten{
+    width: 100%;
+    height: 45vh;
+    background-color: #0d1a34;
+    margin-top: 10vh;
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    padding-top: 7vh;
+    padding-left: 3vw;
+    font-size: 1vw;
+}
+.sosmed{
+    margin-top: -16vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+}
+.sosmed ul{
+    display: flex;
+    list-style: none;
+    gap: 4vw;
+    margin: 0px;
+}
+.sosmed p{
+    color: white;
+    font-family: 'Poppins', sans-serif; 
+    letter-spacing: 0.5vw;
+    font-weight: 500;
+}
+.sosmed img{
+    width: 3vw;
+    margin: 0px;
+    padding: 0%;
+    opacity: 0.8;
+}
