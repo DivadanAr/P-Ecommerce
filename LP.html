@@ -46,11 +46,20 @@
     <script src="https://code.iconify.design/iconify-icon/1.0.1/iconify-icon.min.js"></script>
 
     <!-- font awesome -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+
 </head>
 
 <body>
-    <nav>
+
+    <!-- navbar -->
+    <div class="nvbr">
         <div class="logo">
             <svg viewBox="0 0 1728 82" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path
@@ -61,24 +70,56 @@
                 <p>Star-Mart</p>
             </div>
         </div>
-        <div class="menu-bar">
-
-            <div class="search">
-                <input type="text" name="search" id="search" placeholder="Search">
-                <i class="fa fa-search" aria-hidden="true"></i>
+        <nav class="navbar navbar-expand-lg bg-light">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="search-web">
+                    <form class="d-flex" role="search">
+                        <div class="layout-search">
+                            <input type="text" name="search-web" id="search-web" placeholder="Search">
+                            <button><i class="fa fa-search" aria-hidden="true"></i></button>
+                        </div>
+                    </form>
+                </div>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <div class="menu">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#"><i class="fa-regular fa-comment-dots"></i></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#"><i class="fa fa-heart" aria-hidden="true"></i></a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    <img src="assets/tes-img.png" alt="" class="user">
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item user-setting" href="#">Profile user <i
+                                                class="fa-solid fa-user"></i></a></li>
+                                    <li><a class="dropdown-item logout" href="#" style="color: red;">Log out <i
+                                                class="fa-solid fa-right-from-bracket"></i></a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item setting" href="#">setting <i
+                                                class="fa-solid fa-gear"></i></a></li>
+                                </ul>
+                            </li>
+                    </div>
+                </div>
             </div>
-            <ul>
-                <li><a href="#featured-product">Featured Product</a></li>
-                <li><a href="#star-mall">Star-Mall</a></li>
-            </ul>
-            <div class="option">
-                <a href=""><i class="fa fa-bell" aria-hidden="true"></i></a>
-                <a href=""><i class="fa-regular fa-comment-dots"></i></a>
-                <a href=""><i class="fa-regular fa-user"></i></i></a>
-            </div>
-        </div>
-    </nav>
-
+        </nav>
+    </div>
+    <!-- navbar end -->
 
     <header>
         <div class="left-row"></div>
@@ -123,7 +164,6 @@
         <div class="sorted">
             <h3>We Sorted Our Product By</h3>
             <div class="jurusan">
-
                 <div class="bc">
                     <img src="assets/bc.png" alt="">
                 </div>
@@ -139,7 +179,6 @@
                 <div class="te">
                     <img src="assets/te.png" alt="">
                 </div>
-
             </div>
         </div>
     </header>
@@ -149,6 +188,8 @@
             <h1>Featured Product</h1>
             <h2>This Week</h2>
         </div>
+
+
 
         <div class="produk">
             <img src="https://cdn.dribbble.com/userupload/3081141/file/original-1dd872d52e53ab07cf12ad1fd40c2e7b.png?compress=1&resize=1600x1200"
@@ -175,11 +216,11 @@
     <div class="star-mall" id="star-mall">
         <h1>STAR-MALL</h1>
         <div class="category">
-            <button>RPL</button>
-            <button>TE</button>
-            <button>TJKT</button>
-            <button>BRC</button>
-            <button>ANIMASI</button>
+            <button>Software</button>
+            <button>Electronics</button>
+            <button>Hardware</button>
+            <button>Movies</button>
+            <button>Design</button>
         </div>
         <div class="content">
             <div class="card1">
@@ -313,7 +354,7 @@
                     </a>
                 </li>
                 <li>
-                    <a href="https://www.facebook.com/smktarunabhaktidepok"> 
+                    <a href="https://www.facebook.com/smktarunabhaktidepok">
                         <img src="assets/facebook.png" alt="">
                     </a></li>
 
