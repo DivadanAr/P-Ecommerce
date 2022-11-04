@@ -6,8 +6,9 @@
 
 .navbar {
   width: 100%;
-  height: 13vh;
-  border-bottom: 0.3vh solid black;
+  height: fit-content;
+  box-shadow: .1vh .1vh .5vh #5874af77;
+  padding-bottom: .5%;
 }
 
 .title {
@@ -17,6 +18,7 @@
   z-index: 1;
   text-align: center;
 }
+
 
 .title p {
   font-family: 'Nunito';
@@ -34,23 +36,41 @@
   align-items: center;
 }
 
+.search {
+  display: flex;
+
+}
+
 #search {
   width: 15vw;
   height: 5vh;
-  background: #EBEBEB;
-  border: 0.1vh solid #000000;
-  border-radius: 6.5vh;
+  background: #ffffff;
+  border: 0.1vh solid #9f9f9f;
+  border-top-left-radius: 1vh;
+  border-bottom-left-radius: 1vh;
   padding-left: 6%;
-  padding-right: 16%;
+  padding-right: 6%;
   font-size: 1.125vw;
   box-sizing: border-box;
+  box-shadow: .1vh .1vh .3vh #a1a1a177;
 }
 
 .search i {
   margin-left: -15%;
-  font-size: 1.3vw;
+  font-size: 1vw;
+  color: white;
 }
 
+.search button{
+  width: 3vw;
+  height: 5vh;
+  background-color: #5874AF;
+  border: none;
+  border-top-right-radius: 1vh;
+  border-bottom-right-radius: 1vh;
+  padding-left: 2%;
+  box-shadow: .1vh .1vh .3vh #a1a1a177;
+}
 .option {
   display: flex;
   gap: 1vw;
@@ -156,7 +176,8 @@ i {
 .btn-buy button {
   width: 12vw;
   height: 8vh;
-  background: #000000;
+  background: #5874AF;
+  border: none;
   border-radius: 11px;
   color: white;
   cursor: pointer;
@@ -186,6 +207,12 @@ i {
   gap: 1vw;
 }
 
+.preview-img{
+  display: flex;
+  justify-content: space-evenly;
+  width: 7vw;
+}
+
 .profile-img img {
   width: 4vw;
 }
@@ -197,10 +224,11 @@ i {
   color: #000000;
 }
 
-.other{
+.other {
   display: flex;
   gap: 1vh;
 }
+
 .other button:first-child {
   width: 4.5vw;
   height: 2.6vh;
@@ -212,7 +240,7 @@ i {
   border-radius: .7vh;
   border: .1vh solid black;
   background-color: transparent;
-  
+
 }
 
 .other button i {
@@ -231,29 +259,79 @@ i {
   border: .1vh solid black;
   background-color: transparent;
 }
-.dialog{
-  width: 90vw;
+
+.profile-info {
+  display: flex;
+  width: 25vw;
+  height: 15vh;
+  justify-content: space-evenly;
+  text-align: center;
+  margin: 3% 20%;
+  padding: 1vw;
+  border: .2vh solid black;
+  align-items: center;
+}
+
+.dialog {
+  width: 70vw;
   height: 90vh;
-  background-color: rgb(75, 75, 75);
+  background-color: rgb(255, 255, 255);
   position: fixed;
-  top: 3%;
-  left: 3%;
+  top: 4.5%;
+  left: 15%;
   z-index: 5;
   border-radius: .9vw;
+  box-shadow: 1vw 1vw 110vw rgba(0, 0, 0, 0.431);
+  display: flex;
+  justify-content: center;
 }
-.product-title p{
+
+.product-title p {
   font-family: 'Poppins';
   font-weight: 600;
   font-size: 2vw;
   color: #000000;
-  margin: 2%;
+  width: fit-content;
+  margin: 0% auto;
 }
-.preview{
+.main-preview{
   display: flex;
   align-items: center;
-  gap: 1vw;
+}
+.preview {
+  display: flex;
+  flex-direction: column;
+  gap: .2vw;
 }
 
-.img-preview img{
-  width: 20vw;
+.img-preview img {
+  width: 32vw;
+  margin: 1.3vw;
+  border-radius: 1vh;
+}
+
+.bottom-previews{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.bottom-previews img{
+  width: 5vw;
+}
+.main-preview button{
+  background-color: transparent;
+  border: none;
+}
+.main-preview button i{
+  font-size: 3vw;
+}
+
+.back-btn button{
+  background-color: transparent;
+  border: none;
+  margin: 1vh 0vh 0vh -15.7vw;
+}
+
+.back-btn button i {
+  font-size: 2vw;
 }

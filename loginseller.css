@@ -182,7 +182,7 @@ button{
     54%{margin-left: -100%;}
     72%{margin-left: -200%;}
     90%{margin-left: -200%;}
-    100%{margin-left: 0%;}
+    100%{margin-left: 0%}
  }
   
   #Slide1:checked + #s1 {

@@ -1,0 +1,182 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.navbar {
+  width: 100%;
+  height: 13vh;
+  border-bottom: 0.3vh solid black;
+}
+
+.title {
+  width: 11%;
+  margin: -3.5% auto 0px auto;
+  position: relative;
+  z-index: 1;
+  text-align: center;
+}
+
+.title p {
+  font-family: 'Nunito';
+  font-weight: 700;
+  font-size: 2vw;
+  color: #B5C5D9;
+  margin-top: -7%;
+}
+
+.menu-bar {
+  margin: -0.6% 3% 1px 3%;
+  display: flex;
+  /* width: 100%; */
+  justify-content: space-between;
+  align-items: center;
+}
+
+#search {
+  width: 15vw;
+  height: 5vh;
+  background: #EBEBEB;
+  border: 0.1vh solid #000000;
+  border-radius: 6.5vh;
+  padding-left: 6%;
+  padding-right: 16%;
+  font-size: 1.125vw;
+  box-sizing: border-box;
+}
+
+.search i {
+  margin-left: -15%;
+  font-size: 1.3vw;
+}
+
+.option {
+  display: flex;
+  gap: 1vw;
+}
+
+i {
+  color: black;
+  font-size: 1.5vw;
+}
+
+.container{
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+
+.filter{
+  transform: translate(20%, 3%);
+  width: fit-content;
+}
+
+.text-filter{
+  display: flex;
+  align-items: center;
+  gap: 1vw;
+}
+
+.text-filter p{
+  font-family: 'Nunito';
+font-weight: 300;
+font-size: 2vw;
+color: #000000;
+}
+
+.card-filter{
+  width: 15vw;
+  height: 68vh;
+  background-color: rgb(255, 255, 255);
+  box-shadow: .1vh .1vh 1vh rgba(90, 90, 90, 0.205);
+  border-radius: .4vw;
+}
+
+.category{
+
+}
+
+.content{
+  width: 77vw;
+  height: 70vh;
+  transform: translate(7%, 11%);
+  display: flex;
+  flex-direction: column;
+  gap: 2vw;
+}
+
+.top-product,
+.bottom-product{
+  display: flex;
+  gap: 2vw;
+}
+
+.card-product{
+  width: 15vw;
+  height: 32vh;
+  background-color: rgb(255, 255, 255);
+  border-radius: 1vh;
+  box-shadow: .1vh .1vh 1vh rgba(90, 90, 90, 0.205);
+}
+
+.img-card img{
+  width: 100%;
+  height: 23vh;
+  border-radius: 1vh;
+}
+
+.info-product{
+  display: flex;
+  justify-content: space-between;
+  margin: 4% 7%;
+  align-items: center;
+  font-size: 1vw;
+  font-weight: 500;
+  font-family: 'poppins';
+}
+
+.detail img{
+  width: 2vw;
+}
+
+.btn-next-page{
+  display: flex;
+  align-items: center;
+  gap: .7vw;
+  margin: 3vw auto;
+  width: fit-content;
+  font-size: 1vw;
+  font-weight: 500;
+  font-family: 'poppins';
+}
+
+.btn{
+  display: flex;
+  gap: .7vw;
+}
+
+.btn button{
+  width: 2vw;
+  height: 2vw;
+  border-radius: .5vh;
+  border: none;
+  background: #5874AF;
+  cursor: pointer;
+}
+
+.page-of{
+  width: 2vw;
+  height: 2vw;
+  border-radius: .5vh;
+  border: none;
+  background: #ffffff;
+  box-shadow: .1vh .1vh 1vh rgba(56, 56, 56, 0.378);
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  font-size: 1vw;
+  font-weight: 500;
+  font-family: 'poppins';
+}
