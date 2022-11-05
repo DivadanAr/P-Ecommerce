@@ -145,49 +145,152 @@ nav {
 .content {
   width: 80%;
   display: flex;
-  background-color: #5874AF;
   position: relative;
-  padding-top: 5vh;
+  padding-top: 7vh;
+  justify-content: center;
 }
 
 .pict {
   width: 25vw;
   height: 55vh;
-  background-color: #000;
   margin-left: -170px;
   align-items: center;
   justify-content: end;
   display: flex;
   flex-direction: column;
+  gap: 20px;
+}
+.pict img{
+  width: 23.5vw;
 }
 .pict button {
   margin-bottom: 20px;
-  padding: 5px 40px;
-  border-radius: 16px;
+  padding: 5px 45px;
+  border-radius: 14px;
+  background-color: transparent;
 }
 .details{
   margin-left: 30px;
+  margin-top: 7px;
+
 }
 .id, .first-name, .last-name, .email, .phone-number, .address{
   display: flex;
+  margin-top: 10px;
+  font-size: 18px;
 }
 .id p:nth-child(2){
-  margin-left: 100px;
+  margin-left: 98px;
 }
 .first-name p:nth-child(2){
   margin-left: 113px;
 }
 .last-name p:nth-child(2){
-  margin-left: 114px;
+  margin-left: 113px;
 }
 .email p:nth-child(2){
-  margin-left: 155px;
+  margin-left: 160px;
 }
 .phone-number p:nth-child(2){
-  margin-left: 79px;
+  margin-left: 75px;
 }
 .address p:nth-child(2){
   margin-left: 134px;
   width: 600px;
 }
 
+.menu{
+  display: flex;
+  gap: 60px;
+  font-size: 22px;
+  justify-content: center;
+}
+.orders p{
+  font-weight: 700;
+}
+.line{
+  width: 93%;
+  height: 1px;
+  background-color: #000;
+  margin: auto;
+}
+
+.pesanan {
+  display: flex;
+  gap: 80px;
+  width: 80%;
+  font-size: 20px;
+  margin: 20px 200px;
+
+}
+
+.myorder button {
+  padding: 3px 0px;
+  width: 200px;
+  border-radius: 10px;
+
+}
+.complete button {
+  padding: 3px 0px;
+  width: 200px;
+  border-radius: 10px;
+  background-color: transparent;
+}
+.canceled button {
+  padding: 3px 0px;
+  width: 200px;
+  border-radius: 10px;
+  background-color: transparent;
+}
+.all button {
+  padding: 3px 0px;
+  width: 200px;
+  border-radius: 10px;
+  background-color: transparent;
+}
+
+
+.orderan-gue{
+  width: 93%;
+  height: 200px;
+  background-color: #ffffff;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin: auto;
+}
+
+.row1{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  top: 10px;
+  margin: 15px;
+}
+.row1 p{
+  font-size: 20px;
+  margin-top: 3px;
+}
+.row1 .total{
+  position: relative;
+  left: -50px;
+}
+.row1 .store{
+  display: flex;
+  gap: 5px;
+}
+.row1 .store #logo{
+  font-size: 40px;
+}
+.produknya img{
+  width: 120px;
+  margin-left: 20px;
+  border-radius: 5px;
+}
+
+.kontencuy{
+  display: flex;
+}
+.detail-produk{
+  margin-left: 20px;
+  line-height: 15px;
+}
