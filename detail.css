@@ -81,13 +81,13 @@ nav {
 .search-web i {
   margin-left: -15%;
   font-size: 16px;
-  color: black;
+  color: rgb(255, 255, 255);
 }
 
 .layout-search button {
   width: 40px;
   height: 35px;
-  background-color: #5874AF;
+  background-color: #1C3879;
   border: none;
   border-top-right-radius: 8px;
   border-bottom-right-radius: 8px;
@@ -246,7 +246,7 @@ nav {
 .btn-buy {
   width: 160px;
   height: 55px;
-  background: #5874AF;
+  background: #1C3879;
   border: none;
   border-radius: 11px;
   color: white;
@@ -448,13 +448,15 @@ nav {
   padding-bottom: 10px;
   margin-top: 3%;
   background-color: #fff;
+  box-shadow: 2px 2px 10px rgba(104, 104, 104, 0.227);
+  border-radius: 10px;
 }
 
 .related-product {
   display: flex;
   height: 300px;
   justify-content: center;
-  gap: 25px;
+  gap: 40px;
   align-items: center;
   overflow: hidden;
 }
@@ -462,14 +464,16 @@ nav {
 .related-title {
   display: flex;
   justify-content: space-between;
-  margin: 20px;
+  margin-left: 40px;
+  margin-right: 40px;
+  padding-top: 20px;
   align-items: center;
 }
 
 .related-text p {
   font-family: 'nunito';
   font-weight: 700;
-  font-size: 35px;
+  font-size: 30px;
   color: #000000;
   margin: 0;
 }
@@ -552,7 +556,7 @@ nav {
 
 .kategori ul li a {
   text-decoration: none;
-  color: black;
+  color: white;
   font-weight: 500;
 }
 
@@ -577,7 +581,7 @@ nav {
 
 .help-center ul li a {
   text-decoration: none;
-  color: black;
+  color: white;
   font-weight: 500;
 }
 
@@ -602,7 +606,7 @@ nav {
 
 .school-info ul li a {
   text-decoration: none;
-  color: black;
+  color: white;
   font-weight: 500;
 }
 
@@ -624,7 +628,7 @@ nav {
 }
 
 .logo-copyright p {
-  color: black;
+  color: white;
   opacity: 0.5;
   font-size: 10px;
 }
@@ -632,7 +636,7 @@ nav {
 .konten {
   width: 100%;
   height: 45vh;
-  background-color: #dbdbdb;
+  background-color: #0d1a34;
   margin-top: 10vh;
   display: flex;
   align-items: start;
@@ -659,7 +663,7 @@ nav {
 }
 
 .sosmed p {
-  color: black;
+  color: white;
   font-family: 'Poppins', sans-serif;
   letter-spacing: 0.5vw;
   font-weight: 500;
@@ -801,6 +805,139 @@ nav {
     display: flex;
     flex-direction: column;
     justify-content: center;
+  }
+
+  .related-product .card-related:nth-child(4),
+  .related-product .card-related:nth-child(5) {
+    display: none;
+  }
+
+  .related {
+    width: 100%;
+    padding-bottom: 10px;
+    margin-top: 3%;
+    background-color: #fff;
+    box-shadow: 2px 2px 10px rgba(104, 104, 104, 0.227);
+    border-radius: 10px;
+  }
+
+  .related-product {
+    display: flex;
+    height: 300px;
+    justify-content: center;
+    gap: 40px;
+    align-items: center;
+    overflow: hidden;
+  }
+
+  .related-title {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 40px;
+    margin-right: 40px;
+    padding-top: 20px;
+    align-items: center;
+  }
+
+  .related-text p {
+    font-family: 'nunito';
+    font-weight: 700;
+    font-size: 30px;
+    color: #000000;
+    margin: 0;
+  }
+
+  .see-more a {
+    text-decoration: none;
+  }
+
+  .card-related {
+    width: 150px;
+    height: 220px;
+    background-color: white;
+    box-shadow: 2px 2px 5px rgba(104, 104, 104, 0.227);
+    border-radius: 7px;
+  }
+
+  .isinya {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px;
+  }
+
+  .gambar {
+    width: 150px;
+    border-radius: 7px;
+  }
+
+  .detail {
+    width: 30px;
+  }
+
+  .details {
+    font-family: 'Poppins', sans-serif;
+    gap: 10px;
+    display: inline-block;
+  }
+
+  .nama {
+    font-size: 16px;
+    font-weight: 500;
+  }
+
+  .nama p {
+    margin: 0;
+    margin-bottom: 10px;
+    padding: 0;
+  }
+
+  .harga p {
+    margin: 0;
+    padding: 0;
+  }
+
+  .search-web {
+    margin-left: 2%;
+    position: relative;
+    z-index: 2;
+  }
+
+  .layout-search {
+    display: flex;
+  }
+
+  #search-web {
+    width: 150px;
+    height: 30px;
+    background: #ffffff;
+    border: 0.1vh solid #9f9f9f;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    padding-left: 6%;
+    padding-right: 6%;
+    font-size: 1.125vw;
+    box-sizing: border-box;
+    box-shadow: 1px 1px 3px #a1a1a177;
+    font-size: 14px;
+    font-family: 'Poppins';
+  }
+
+  .search-web i {
+    margin-left: -15%;
+    font-size: 14px;
+    color: rgb(255, 255, 255);
+  }
+
+  .layout-search button {
+    width: 40px;
+    height: 30px;
+    background-color: #1C3879;
+    border: none;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    padding-left: 2%;
+    box-shadow: 1px 1px 3px #a1a1a177;
   }
 
 }
