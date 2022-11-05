@@ -23,10 +23,11 @@ body{
 
 .content input{
     display: flex;
-    padding: 2vh 3vw;
+    padding: 20px 30px;
     border-radius: 10px;
     width: 20vw;
     margin-bottom: 10px;
+    justify-content: center;
 }
 button{
     width: 26vw;
@@ -81,9 +82,8 @@ button{
 /* carousell */
 
 .carousell{
-    position: absolute;
-    left: -42vw;
-    top: 7vh;
+  display: flex;
+  justify-content: center;
 }
 
 #slider-wrapper {
