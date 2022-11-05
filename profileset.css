@@ -19,6 +19,7 @@ nav {
   height: 7vh;
   position: fixed;
   top: 0;
+  z-index: 99;
 }
 
 .navbar {
@@ -145,14 +146,48 @@ nav {
   width: 80%;
   display: flex;
   background-color: #5874AF;
+  position: relative;
+  padding-top: 5vh;
 }
 
 .pict {
-  width: 35vw;
-  height: 70vh;
+  width: 25vw;
+  height: 55vh;
   background-color: #000;
+  margin-left: -170px;
+  align-items: center;
+  justify-content: end;
+  display: flex;
+  flex-direction: column;
 }
-.detail{
-  
+.pict button {
+  margin-bottom: 20px;
+  padding: 5px 40px;
+  border-radius: 16px;
+}
+.details{
+  margin-left: 30px;
+}
+.id, .first-name, .last-name, .email, .phone-number, .address{
+  display: flex;
+}
+.id p:nth-child(2){
+  margin-left: 100px;
+}
+.first-name p:nth-child(2){
+  margin-left: 113px;
+}
+.last-name p:nth-child(2){
+  margin-left: 114px;
+}
+.email p:nth-child(2){
+  margin-left: 155px;
+}
+.phone-number p:nth-child(2){
+  margin-left: 79px;
+}
+.address p:nth-child(2){
+  margin-left: 134px;
+  width: 600px;
 }
 
