@@ -161,7 +161,9 @@ nav {
   gap: 20px;
 }
 .pict img{
-  width: 23.5vw;
+  width: 350px;
+  height: 350px;
+  border-radius: 50%;
 }
 .pict button {
   margin-bottom: 20px;
@@ -241,6 +243,7 @@ nav {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   margin: auto;
   margin-bottom: 100px;
+  margin-top: 40px;
 }
 
 .row1{
