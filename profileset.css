@@ -155,7 +155,7 @@ nav {
   height: 55vh;
   margin-left: -170px;
   align-items: center;
-  justify-content: end;
+  justify-content: start;
   display: flex;
   flex-direction: column;
   gap: 20px;
@@ -199,28 +199,12 @@ nav {
   width: 600px;
 }
 
-.menu{
-  display: flex;
-  gap: 60px;
-  font-size: 22px;
-  justify-content: center;
-}
-.orders p{
-  font-weight: 700;
-}
-.line{
-  width: 93%;
-  height: 1px;
-  background-color: #000;
-  margin: auto;
-}
-
 .pesanan {
   display: flex;
-  gap: 80px;
+  justify-content: space-evenly;
   width: 80%;
   font-size: 20px;
-  margin: 20px 200px;
+  margin: 20px 100px;
 
 }
 
@@ -256,6 +240,7 @@ nav {
   background-color: #ffffff;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   margin: auto;
+  margin-bottom: 100px;
 }
 
 .row1{
@@ -293,4 +278,33 @@ nav {
 .detail-produk{
   margin-left: 20px;
   line-height: 15px;
+}
+
+.row-kanan{
+  position: relative;
+  left: 890px;
+}
+.row-kanan button{
+  padding: 3px 5px;
+  width: 120px;
+  border-radius: 10px;
+}
+.harga-total{
+  font-size: 20px;
+}
+.btn-pesanan {
+  display: flex;
+  margin-left: -150px;
+  gap: 20px;
+  margin-top: 25px;
+}
+
+.btn-pesanan button:nth-child(1){
+  background-color: #5874AF;
+  color: white;
+  border-color: transparent;
+}
+.btn-pesanan button:nth-child(2){
+  background-color: transparent;
+  border: solid 1px black;
 }
