@@ -166,7 +166,7 @@
     font-weight: 500;
     font-size: 18px;
     color: rgb(0, 0, 0);
-    margin-left:40px;
+    margin-left:70px;
 }
 
 .list-menu a {
@@ -180,7 +180,7 @@
 }
 
 .line {
-    width: 100px;
+    width: 120px;
     height: 2px;
     background-color: #000;
 }
